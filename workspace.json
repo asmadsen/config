@@ -13,7 +13,7 @@
             "outputPath": "dist/packages/eslint-config",
             "tsConfig": "packages/eslint-config/tsconfig.lib.json",
             "packageJson": "packages/eslint-config/package.json",
-            "main": "packages/eslint-config/src/index.ts",
+            "main": "packages/eslint-config/index.ts",
             "assets": ["packages/eslint-config/*.md"]
           }
         },
