@@ -1,0 +1,9 @@
+{
+  "name": "@asmadsen/prettier-config",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmadsen/config.git"
+  },
+  "main": "index.json"
+}

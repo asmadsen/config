@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@asmadsen/eslint-config": ["packages/eslint-config/src/index.js"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
