@@ -7,5 +7,6 @@
   "endOfLine": "lf",
   "singleQuote": true,
   "quoteProps": "as-needed",
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "importOrderSeparation": true
 }

@@ -26,7 +26,7 @@
         "publish": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "command": "yarn publish",
+            "command": "yarn publish --access public",
             "cwd": "dist/packages/eslint-config"
           }
         }
@@ -58,7 +58,7 @@
         "publish": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "command": "yarn publish",
+            "command": "yarn publish --access public",
             "cwd": "dist/packages/prettier-config"
           }
         }

@@ -49,6 +49,8 @@ const config: TSESLint.Linter.Config =  {
     'react/self-closing-comp': 'error',
     'react/jsx-boolean-value': 'error',
     'react/jsx-sort-props': 'error',
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   },
   settings: {
     react: {
