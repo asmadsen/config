@@ -50,7 +50,9 @@ const config: TSESLint.Linter.Config =  {
     'react/jsx-boolean-value': 'error',
     'react/jsx-sort-props': 'error',
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": ["error"],
   },
   settings: {
     react: {
