@@ -8,5 +8,6 @@
   "singleQuote": true,
   "quoteProps": "as-needed",
   "bracketSpacing": true,
-  "importOrderSeparation": true
+  "importOrderSeparation": true,
+  "importOrder": ["^[./]"]
 }
