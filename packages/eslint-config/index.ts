@@ -67,6 +67,12 @@ const config: TSESLint.Linter.Config =  {
         '@typescript-eslint/no-var-requires': 'off',
       },
     },
+    {
+      files: ['*.config.[jt]s'],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
   ],
 }
 
