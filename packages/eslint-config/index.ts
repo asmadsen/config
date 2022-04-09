@@ -53,6 +53,14 @@ const config: TSESLint.Linter.Config =  {
     "@typescript-eslint/no-use-before-define": ["error"],
     "no-useless-constructor": "off",
     "@typescript-eslint/no-useless-constructor": ["error"],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
   },
   settings: {
     react: {
