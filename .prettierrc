@@ -1,3 +1,13 @@
 {
-  "singleQuote": true
+  "useTabs": false,
+  "semi": false,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "bracketSpacing": true,
+  "importOrderSeparation": true,
+  "importOrder": ["^[./]"]
 }

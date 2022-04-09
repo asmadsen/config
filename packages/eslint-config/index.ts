@@ -1,9 +1,9 @@
-import type {TSESLint} from '@typescript-eslint/experimental-utils'
+import type { TSESLint } from '@typescript-eslint/experimental-utils'
 
 const strict =
   process.env.PRE_COMMIT || process.env.NODE_ENV?.toLowerCase() === 'production'
 
-const config: TSESLint.Linter.Config =  {
+const config: TSESLint.Linter.Config = {
   env: {
     node: true,
     browser: true,
@@ -49,10 +49,10 @@ const config: TSESLint.Linter.Config =  {
     'react/self-closing-comp': 'error',
     'react/jsx-boolean-value': 'error',
     'react/jsx-sort-props': 'error',
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
-    "no-useless-constructor": "off",
-    "@typescript-eslint/no-useless-constructor": ["error"],
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': ['error'],
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {

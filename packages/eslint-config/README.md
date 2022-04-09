@@ -16,9 +16,7 @@ $ yarn add -D @asmadsen/eslint-config
 {
   // ...
   "eslintConfig": {
-    "extends": [
-      "@asmadsen"
-    ]
-  },
+    "extends": ["@asmadsen"]
+  }
 }
 ```
