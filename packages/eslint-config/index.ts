@@ -15,6 +15,7 @@ const config: TSESLint.Linter.Config = {
     '@typescript-eslint/eslint-plugin',
     'prettier',
     'import',
+    'unused-imports',
   ],
   extends: [
     'standard',
@@ -61,6 +62,7 @@ const config: TSESLint.Linter.Config = {
         caughtErrorsIgnorePattern: '^_',
       },
     ],
+    'unused-imports/no-unused-imports': 'error',
   },
   settings: {
     react: {
