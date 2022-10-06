@@ -1,23 +1,24 @@
 {
   "name": "@asmadsen/eslint-config",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asmadsen/config.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.18.0",
-    "@typescript-eslint/parser": "5.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-solid": "^0.7.3",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "2.6.2"
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "@asmadsen/prettier-config": "*"

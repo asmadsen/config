@@ -1,4 +1,4 @@
-import type { TSESLint } from '@typescript-eslint/experimental-utils'
+import type { TSESLint } from '@typescript-eslint/utils'
 
 const strict =
   process.env.PRE_COMMIT || process.env.NODE_ENV?.toLowerCase() === 'production'
@@ -21,8 +21,6 @@ const config: TSESLint.Linter.Config = {
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -39,17 +37,6 @@ const config: TSESLint.Linter.Config = {
     'no-console': strict ? 'error' : 'off',
     'no-debugger': strict ? 'error' : 'off',
     'import/no-default-export': 'error',
-    'react/function-component-definition': [
-      'error',
-      {
-        namedComponents: 'arrow-function',
-        unnamedComponents: 'arrow-function',
-      },
-    ],
-    'react/prefer-read-only-props': 'error',
-    'react/self-closing-comp': 'error',
-    'react/jsx-boolean-value': 'error',
-    'react/jsx-sort-props': 'error',
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
     'no-useless-constructor': 'off',
