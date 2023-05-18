@@ -1,12 +1,12 @@
 {
   "name": "@asmadsen/prettier-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asmadsen/config.git"
   },
   "main": "index.json",
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0"
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1"
   }
 }
