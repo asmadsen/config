@@ -14,4 +14,4 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile
-      - run: yarn nx affected --all --target=build --configuration=production
+      - run: yarn nx run-many -t build --configuration=production
